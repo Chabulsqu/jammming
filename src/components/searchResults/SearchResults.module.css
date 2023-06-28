@@ -1,0 +1,15 @@
+.searchResults {
+    width: 35vw;
+}
+.searchResults output {
+    max-height: 42vh;
+}
+.searchError {
+    font-size: .75rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .searchResults {
+        width: 70vw;
+    }
+}

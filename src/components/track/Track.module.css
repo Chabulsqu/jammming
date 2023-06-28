@@ -1,0 +1,16 @@
+.songHeading {
+    font-size: .7rem;
+    color: var(--text-color);
+    display: inline;
+}
+
+.songParagraph {
+    font-size: .55rem;
+    font-weight: 400;
+    color: #FFFC;
+}
+
+.songBreak {
+    margin: 1vh 0;
+    width: 100%;
+}

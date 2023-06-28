@@ -1,0 +1,45 @@
+.playlist {
+    width: 25vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-content: flex-end;
+}
+.playlistHeading {
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 700;
+    width: 95%;
+    position: absolute; left: 1%;
+}
+.playlistRule {
+    border-color: gray;
+    display: block;
+    width: 95%;
+    height: 1px;
+    margin-top: 1.5rem;
+    position: absolute; left: 1%;
+}
+
+.saveButton {
+    background-color: #6C41EC;
+    padding: .9rem;
+}
+
+.successParagraph {
+    position: absolute;
+    top: 20%;
+    font-size: .9rem;
+    color: rgb(66, 186, 150);
+}
+
+@media only screen and (max-width: 768px) {
+    .playlist {
+        width: 70vw !important;
+    }
+    .playlistHeading {
+        font-size: .75rem;
+    }
+}

@@ -1,0 +1,16 @@
+.searchButton {
+    background-color: var(--bg-color);
+    margin-top: 2.5rem;
+}
+.searchInput {
+    text-align: center;
+    font-size: .7rem;
+    border-radius: 3px;
+    width: 20vw; height: 5.5vh;
+    margin: 0 33.8vw;
+    padding: 0 1vw;
+} .searchInput:focus::placeholder {
+    color: transparent;
+} .searchInput:invalid {
+    outline: solid red; 
+}
