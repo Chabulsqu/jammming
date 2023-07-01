@@ -1,1 +1,1 @@
-/* Tests yet to be implemented */
+/* Tests yet to be implemented using Jest and RTL (React Testing Library) */

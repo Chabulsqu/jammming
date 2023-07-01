@@ -28,7 +28,7 @@ The purpose of this App is to exercise several JavaScript skills while also lear
 
 ## Getting Started
 
-If you want to have a quick glimpse at the site you can check its production version on Netlify (available in the repository description). However, if you wish to run it on your machine, follow these instructions.
+If you want to have a quick glimpse at the site you can check its [production version on Netlify]() (available in the repository description). However, if you wish to run it on your machine, follow these instructions.
 
 ### Prerequisites
 You need to have [Node](https://nodejs.org/en) installed on your computer, I recommend installing the LTS or current packages. Once you install Node you will be able to use [NPM](https://www.npmjs.com) (Node Package Manager), if you wish to ensure you have successfully installed NPM, run the `npm -v` command in your terminal and it should tell you which version of NPM you are using, you can also update to a newer version of NPM using the command `npm install npm -g`. To execute any of these commands use your OS terminal (in Linux and macOS) or try with any Text Editor terminal (like the VS Code one).
@@ -43,12 +43,8 @@ You can use the command `npm run dev` to run the developer version of the projec
 
 The project was made using the following libraries (among others):
 * React v18: The entire project is built on top of it, not much to say.
-* CSS Modules: Aside from src/index.css, all the rest of the styles are applied via specific CSS modules for each component and imported on JavaScript as the default import `styles`.
+* CSS inline styling: Aside from src/index.css, all the rest of the styles are applied via specific CSS rules applied to each element using their `style`property.
 * Vite: This project has been one of the first ones I made with Vite and I feel it is a way more compelling tool than other tools like CRA (Create React App). It also allows for the use of plugins like Vite, which has helped me a lot during the realization of this project, when needing to run `window.crypto.subtle.digest` on a secure Localhost environment (HTTPS).
-* Jest: 
-* React Testing Library (RTL): Used for.
-\
-
 
 
 ### Testing

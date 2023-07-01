@@ -42,7 +42,8 @@ export async function savePlaylist({ accessToken }, inputValue, playlistTracks) 
 
 export async function authenticate() {
   const clientId = '0dbb664dcada41fbbee57d7f26695090';
-  const redirectUri = 'https://localhost:5173';
+  const redirectUri = 'https://' + window.location.host;
+  
   const storedCodeVerifier = localStorage.getItem('code_verifier');
   if (storedCodeVerifier === null || storedCodeVerifier === 'null') { // Part 1 of authorization process
     const codeVerifier = generateRandomString(128);
@@ -96,7 +97,7 @@ async function getAccessToken(clientId, redirectUri) {
     const data = await response.json();
     localStorage.setItem('access_token', JSON.stringify({ accessToken: data.access_token, expDate: (new Date()).getTime() }));
   } catch (error) {
-    console.error(error);
+    
   }
   return JSON.parse(localStorage.getItem('access_token'))
 }

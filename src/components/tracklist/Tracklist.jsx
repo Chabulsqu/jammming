@@ -4,11 +4,11 @@ import styles from './Tracklist.module.css';
 import { context } from "../../App";
 
 
-export default function Tracklist({icon}) {
+export default function Tracklist({icon, isSearchResults}) {
     const [tracks, playlistTracks, setPlaylistTracks] = useContext(context);
 
-    return (<output key={icon} className={icon === '/src/assets/icons/addIcon.svg' ? styles.searchResultsPlaylist : styles.playlistTracklist}>
-    {icon === '/src/assets/icons/addIcon.svg' ? tracks.map(track => <Track track={track} icon={icon} tracks={tracks} playlistTracks={playlistTracks} setPlaylistTracks={setPlaylistTracks} key={track.id} />) : playlistTracks.map(track => <Track track={track} icon={icon} tracks={tracks} playlistTracks={playlistTracks} setPlaylistTracks={setPlaylistTracks} key={track.id} />)
+    return (<output key={icon} className={isSearchResults ? '' : styles.playlistTracklist}>
+    {isSearchResults ? tracks.map(track => <Track track={track} icon={icon} tracks={tracks} playlistTracks={playlistTracks} setPlaylistTracks={setPlaylistTracks} key={track.id} />) : playlistTracks.map(track => <Track track={track} icon={icon} tracks={tracks} playlistTracks={playlistTracks} setPlaylistTracks={setPlaylistTracks} key={track.id} />)
     }
     </output>)
 }
