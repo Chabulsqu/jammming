@@ -1,6 +1,6 @@
-import SearchBar from './components/searchBar/SearchBar';
-import SearchResults from './components/searchResults/searchResults';
-import Playlist from './components/playlist/Playlist';
+import SearchBar from './components/searchBar/SearchBar.jsx';
+import SearchResults from './components/searchResults/searchResults.jsx';
+import Playlist from './components/playlist/Playlist.jsx';
 import React, { useState } from 'react';
 
 export const context = React.createContext()

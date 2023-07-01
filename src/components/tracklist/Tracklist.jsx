@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import Track from "../track/Track";
+import Track from "../track/Track.jsx";
 import styles from './Tracklist.module.css';
-import { context } from "../../App";
+import { context } from "../../App.jsx";
 
 
 export default function Tracklist({icon, isSearchResults}) {

@@ -1,4 +1,4 @@
-import Tracklist from '../tracklist/Tracklist';
+import Tracklist from '../tracklist/Tracklist.jsx';
 import styles from './SearchResults.module.css';
 import addIcon from '../../assets/icons/addIcon.svg';
 

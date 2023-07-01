@@ -28,7 +28,7 @@ The purpose of this App is to exercise several JavaScript skills while also lear
 
 ## Getting Started
 
-If you want to have a quick glimpse at the site you can check its [production version on Netlify]() (available in the repository description). However, if you wish to run it on your machine, follow these instructions.
+If you want to have a quick glimpse at the site you can check its [production version on Netlify](https://jammming-fain.netlify.app). However, if you wish to run it on your machine, follow these instructions.
 
 ### Prerequisites
 You need to have [Node](https://nodejs.org/en) installed on your computer, I recommend installing the LTS or current packages. Once you install Node you will be able to use [NPM](https://www.npmjs.com) (Node Package Manager), if you wish to ensure you have successfully installed NPM, run the `npm -v` command in your terminal and it should tell you which version of NPM you are using, you can also update to a newer version of NPM using the command `npm install npm -g`. To execute any of these commands use your OS terminal (in Linux and macOS) or try with any Text Editor terminal (like the VS Code one).
