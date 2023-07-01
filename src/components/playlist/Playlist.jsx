@@ -2,7 +2,7 @@ import Tracklist from "../tracklist/Tracklist.jsx";
 import styles from "./Playlist.module.css";
 import removeIcon from "../../assets/icons/removeIcon.svg";
 import { useState, useContext, useRef, useEffect } from "react";
-import { context } from "../../App";
+import { context } from "../../App.jsx";
 import { authenticate, savePlaylist, refreshToken } from "../../util/Spotify";
 
 

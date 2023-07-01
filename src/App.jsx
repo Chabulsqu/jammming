@@ -1,5 +1,5 @@
 import SearchBar from './components/searchBar/SearchBar.jsx';
-import SearchResults from './components/searchResults/searchResults.jsx';
+import SearchResults from './components/searchResults/SearchResults.jsx';
 import Playlist from './components/playlist/Playlist.jsx';
 import React, { useState } from 'react';
 
